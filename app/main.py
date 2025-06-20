@@ -1,9 +1,19 @@
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import List
 from models import image_text_alignment, review_detector, visual_logo_checker, returns_feedback
 
 app = FastAPI(title="Amazon Trust Score API")
+
+# ✅ Enable CORS for frontend access (e.g., from Chrome extension)
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # You can restrict this to ["chrome-extension://<your-extension-id>"] if needed
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 class ProductData(BaseModel):
     title: str
