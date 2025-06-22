@@ -3,7 +3,7 @@
   "name": "Amazon Trust Analyzer",
   "version": "1.0",
   "description": "Displays product trustworthiness scores on Amazon pages",
-  "permissions": ["activeTab", "storage"],
+  "permissions": ["activeTab"],
   "host_permissions": [
     "*://*.amazon.com/*",
     "*://*.amazon.in/*",
@@ -15,32 +15,26 @@
   ],
   "content_scripts": [
     {
-        "matches": [
-  "*://www.amazon.com/dp/*",
-  "*://www.amazon.com/*/dp/*",
-  "*://www.amazon.com/gp/product/*",
-  "*://www.amazon.in/dp/*",
-  "*://www.amazon.in/*/dp/*",
-  "*://www.amazon.in/gp/product/*",
-  "*://www.amazon.co.uk/dp/*",
-  "*://www.amazon.co.uk/*/dp/*",
-  "*://www.amazon.co.uk/gp/product/*",
-  "*://www.amazon.de/dp/*",
-  "*://www.amazon.de/*/dp/*",
-  "*://www.amazon.fr/dp/*",
-  "*://www.amazon.fr/*/dp/*",
-  "*://www.amazon.co.jp/dp/*",
-  "*://www.amazon.co.jp/*/dp/*",
-  "*://www.amazon.ca/dp/*",
-  "*://www.amazon.ca/*/dp/*"
-]
-,
+      "matches": [
+        "*://www.amazon.*/dp/*",
+        "*://www.amazon.*/gp/product/*"
+      ],
       "js": ["content.js"],
-      "css": ["styles.css"],
       "run_at": "document_idle"
     }
   ],
+  "web_accessible_resources": [
+    {
+      "resources": ["styles.css", "icon16.png", "icon48.png", "icon128.png"],
+      "matches": ["<all_urls>"]
+    }
+  ],
   "action": {
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
   }
 }
