@@ -1,0 +1,17 @@
+{
+ "title": "Nike Air Zoom Pegasus 39",
+ "description": "Durable running shoe with great traction and cushioning.",
+ "images": ["https://via.placeholder.com/300?text=Nike+Shoe"],
+ "top_reviews": [
+ "Best running shoes ever!",
+ "Not original, poor build quality.",
+ "Very comfortable and durable.",
+ "Feels fake, logo missing.",
+ "Would not recommend to others."
+ ],
+ "return_feedback": [
+ "Item not as described",
+ "Suspect counterfeit",
+ "Delayed shipping"
+ ]
+}

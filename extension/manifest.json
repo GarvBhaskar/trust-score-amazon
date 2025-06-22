@@ -1,0 +1,46 @@
+{
+  "manifest_version": 3,
+  "name": "Amazon Trust Analyzer",
+  "version": "1.0",
+  "description": "Displays product trustworthiness scores on Amazon pages",
+  "permissions": ["activeTab", "storage"],
+  "host_permissions": [
+    "*://*.amazon.com/*",
+    "*://*.amazon.in/*",
+    "*://*.amazon.co.uk/*",
+    "*://*.amazon.de/*",
+    "*://*.amazon.fr/*",
+    "*://*.amazon.co.jp/*",
+    "*://*.amazon.ca/*"
+  ],
+  "content_scripts": [
+    {
+        "matches": [
+  "*://www.amazon.com/dp/*",
+  "*://www.amazon.com/*/dp/*",
+  "*://www.amazon.com/gp/product/*",
+  "*://www.amazon.in/dp/*",
+  "*://www.amazon.in/*/dp/*",
+  "*://www.amazon.in/gp/product/*",
+  "*://www.amazon.co.uk/dp/*",
+  "*://www.amazon.co.uk/*/dp/*",
+  "*://www.amazon.co.uk/gp/product/*",
+  "*://www.amazon.de/dp/*",
+  "*://www.amazon.de/*/dp/*",
+  "*://www.amazon.fr/dp/*",
+  "*://www.amazon.fr/*/dp/*",
+  "*://www.amazon.co.jp/dp/*",
+  "*://www.amazon.co.jp/*/dp/*",
+  "*://www.amazon.ca/dp/*",
+  "*://www.amazon.ca/*/dp/*"
+]
+,
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
