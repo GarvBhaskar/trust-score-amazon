@@ -1,0 +1,41 @@
+{
+  "method": "POST",
+  "url": "http://127.0.0.1:8000/trust_score",
+  "headers": {
+    "host": "127.0.0.1:8000",
+    "connection": "keep-alive",
+    "content-length": "3591",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "sec-ch-ua": "\"Google Chrome\";v=\"137\", \"Chromium\";v=\"137\", \"Not/A)Brand\";v=\"24\"",
+    "content-type": "application/json",
+    "sec-ch-ua-mobile": "?0",
+    "accept": "*/*",
+    "origin": "https://www.amazon.in",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-dest": "empty",
+    "accept-encoding": "gzip, deflate, br, zstd",
+    "accept-language": "en-GB,en-IN;q=0.9,en-US;q=0.8,en;q=0.7"
+  },
+  "query_params": {},
+  "body": {
+    "title": "Cosmic Byte Ares Pro Wireless Gamepad for PC, Android, iOS \u2013 Tri-Mode (2.4GHz, Bluetooth, Wired), Hall Effect Joysticks & Triggers, 1000Hz Polling, Backlit Buttons, Turbo, Macro Button, 3.5mm Audio Port (Black)",
+    "description": "About this item\n\ud83c\udfae Tri-Mode Connectivity: Seamlessly switch between 2.4GHz Wireless (Dongle), Bluetooth, and Wired (USB-C) modes for versatile use across devices.\n\u26a1 1000Hz Polling Rate: Ultra-fast response time ensures near-zero input lag for competitive performance.\n\ud83d\udd79\ufe0f Hall Effect Joysticks & Triggers: Magnetic sensors offer superior precision and durability, eliminating stick drift over time.\n\ud83c\udfa7 Wireless 3.5mm Audio Port: Connect your headset wirelessly via dongle mode and enjoy in-game audio and voice chat.\n\ud83c\udfaf Dedicated Macro Button: Programmable rear button lets you assign complex inputs for rapid actions.\n\ud83d\udd2b Turbo Function with Speed Adjustment: Customize turbo speed for button mashing in FPS, fighting, and arcade games.\n\ud83e\uddf2 Textured Hand Grip: Anti-slip design for long hours of comfortable gameplay.\nShow More",
+    "images": [
+      "https://m.media-amazon.com/images/I/41UyCfUmNNL._SL1500_SY300_QL70_FMwebp_.jpg"
+    ],
+    "top_reviews": [
+      "(function() {\n            P.when('cr-A', 'ready').execute(function(A) {\n                if(typeof A.toggleExpanderAriaLabel === 'function') {\n                    A.toggleExpanderAriaLabel('review_text_read_more', 'Read more of this review', 'Read less of this review');\n                }\n            });\n        })();\n    \n    \n        .review-text-read-more-expander:focus-visible {\n            outline: 2px solid #2162a1;\n            outline-offset: 2px;\n            border-radius: 5px;\n        }\n    \n\n\n\n\n\n\n\n\n  \n  \n    Smooth and fabulous\n  \nRead more",
+      "Smooth and fabulous",
+      "The  controller doesn't works for Android, it has some software/Driver issues for Android game. Its connection doesn't makes sense where joystics for mobile UI BUT doesn't works in game or emulator. I ordered a replacement will let you guys know.The  controller doesn't works for Android, it has some software/Driver issues for Android game. Its connection doesn't makes sense where joystics for mobile UI BUT doesn't works in game or emulator. I ordered a replacement will let you guys know.Follow up on controller after replacement, it has the same issue, L Stick, R Stick D Pad, andoid emulator doesn't recognize the device in both xinput and andoid. Anyone purchasing it's perfect controller but emulation is also one of your priority, avoid it at all cost.\n  \nRead more",
+      "The  controller doesn't works for Android, it has some software/Driver issues for Android game. Its connection doesn't makes sense where joystics for mobile UI BUT doesn't works in game or emulator. I ordered a replacement will let you guys know.The  controller doesn't works for Android, it has some software/Driver issues for Android game. Its connection doesn't makes sense where joystics for mobile UI BUT doesn't works in game or emulator. I ordered a replacement will let you guys know.Follow up on controller after replacement, it has the same issue, L Stick, R Stick D Pad, andoid emulator doesn't recognize the device in both xinput and andoid. Anyone purchasing it's perfect controller but emulation is also one of your priority, avoid it at all cost.",
+      "this is a value for money gamepad......garibo ka badsa in gamepad world.....quality is good ... if you bay this you don't regret. it is a good gamepad.\n  \nRead more"
+    ],
+    "return_feedback": [
+      "Item not as described",
+      "Wrong product",
+      "Looked fake"
+    ]
+  }
+}

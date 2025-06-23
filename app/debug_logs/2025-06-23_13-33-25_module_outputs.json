@@ -1,0 +1,18 @@
+{
+  "image_text": {
+    "score": 1.0,
+    "explanation": "Visual-Text Consistency: Strong match between images and description. Details: Image 1: Found 1 matching keywords (polo) in caption 'a man wearing a white polo shirt...'"
+  },
+  "reviews": {
+    "score": 0.8,
+    "explanation": "Review Authenticity: Highly authentic reviews. The most positive impact came from review 2 (classified as 'genuine' with strong confidence): \"Bought it for my son. Fits him brilliantly. Good quality fabric. Comfortable fabric to wear. Looks g...\". Full analysis: Review 1: Classified as 'genuine' (confidence: 0.43) - Authentic customer review with specific details; Review 2: Classified as 'genuine' (confidence: 0.86) - Authentic customer review with specific details; Review 3: Classified as 'bot-like' (confidence: 0.84) - Patterns consistent with automated generation; Review 4: Classified as 'genuine' (confidence: 0.40) - Authentic customer review with specific details; Review 5: Classified as 'genuine' (confidence: 0.78) - Authentic customer review with specific details"
+  },
+  "logo": {
+    "score": 1.0,
+    "explanation": "Brand Consistency: Strong brand presence confirmed. The strongest match was image 1 with high confidence (1.00) for brand 'Jockey'. Details: Image 1: Best match 'Jockey' (confidence: 1.00)"
+  },
+  "returns": {
+    "score": 0.0,
+    "explanation": "Return Feedback Analysis: Frequent return issues reported. The most negative impact came from feedback 1: 'Item not as described' (this was a strongly negative factor). Full analysis: Feedback 1: Contains negative trigger words; Feedback 2: Classified as NEGATIVE (confidence: 1.00); Feedback 3: Contains negative trigger words"
+  }
+}
