@@ -1,0 +1,42 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 14px;
+  padding: 16px;
+  margin: 0;
+  background-color: #f5f5f5;
+  width: 300px;
+  color: #222;
+}
+
+.popup-container {
+  text-align: center;
+}
+
+.icon {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 18px;
+  margin: 0 0 8px 0;
+  color: #007185;
+}
+
+p {
+  margin: 8px 0;
+  line-height: 1.4;
+}
+
+code {
+  background-color: #e0e0e0;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+.footer {
+  margin-top: 12px;
+  font-size: 12px;
+  color: #888;
+}
