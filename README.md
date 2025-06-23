@@ -1,6 +1,8 @@
 # 🔐 AI-Powered Trust Score System
 
-**Team Fractals** – Garv Bhaskar (22BAI1371), Aviral Srivastava (22BAI1167)
+**Team Fractals** – Garv Bhaskar (22BAI1371), Aviral Srivastava (22BAI1187)
+
+
 🏆 *Amazon HackOn - Season 5 Submission*
 
 ---
