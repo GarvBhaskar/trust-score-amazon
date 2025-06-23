@@ -1,7 +1,3 @@
-Certainly! Here's a **refined, more professional version** of your README, with improved tone, formatting, and clarity—while preserving all technical details and project accomplishments.
-
----
-
 # 🔐 AI-Powered Trust Score System
 
 **Team Fractals** – Garv Bhaskar (22BAI1371), Aviral Srivastava (22BAI1167)
