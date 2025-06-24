@@ -1,0 +1,41 @@
+{
+  "method": "POST",
+  "url": "http://127.0.0.1:8000/trust_score",
+  "headers": {
+    "host": "127.0.0.1:8000",
+    "connection": "keep-alive",
+    "content-length": "1246",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+    "sec-ch-ua": "\"Google Chrome\";v=\"137\", \"Chromium\";v=\"137\", \"Not/A)Brand\";v=\"24\"",
+    "content-type": "application/json",
+    "sec-ch-ua-mobile": "?0",
+    "accept": "*/*",
+    "origin": "https://www.amazon.in",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-dest": "empty",
+    "accept-encoding": "gzip, deflate, br, zstd",
+    "accept-language": "en-GB,en-IN;q=0.9,en-US;q=0.8,en;q=0.7"
+  },
+  "query_params": {},
+  "body": {
+    "title": "Louis Philippe Men's Cotton Slim Fit Polo T-Shirt",
+    "description": "",
+    "images": [
+      "https://m.media-amazon.com/images/I/51kyOocUMQL._SL1500_.jpg"
+    ],
+    "top_reviews": [
+      "(function() {\n            P.when('cr-A', 'ready').execute(function(A) {\n                if(typeof A.toggleExpanderAriaLabel === 'function') {\n                    A.toggleExpanderAriaLabel('review_text_read_more', 'Read more of this review', 'Read less of this review');\n                }\n            });\n        })();\n    \n    \n        .review-text-read-more-expander:focus-visible {\n            outline: 2px solid #2162a1;\n            outline-offset: 2px;\n            border-radius: 5px;\n        }\n    \n\n\n\n\n\n\n\n\n  \n  \n    Too good to use. Smart design.\n  \nRead more",
+      "Too good to use. Smart design.",
+      "The material is very very thin and fabric doesn't feel like cotton. It's no way close to other brands like pepe jeans, levis etc. Probably fake or low quality.\n  \nRead more",
+      "The material is very very thin and fabric doesn't feel like cotton. It's no way close to other brands like pepe jeans, levis etc. Probably fake or low quality.",
+      "Great great t.shirt\n  \nRead more"
+    ],
+    "return_feedback": [
+      "Item not as described",
+      "Wrong product",
+      "Looked fake"
+    ]
+  }
+}
