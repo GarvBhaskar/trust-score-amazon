@@ -5,13 +5,13 @@ from typing import List, Dict, Any
 from datetime import datetime
 import json
 import os
-from models import image_text_alignment, review_detector, visual_logo_checker, returns_feedback
+from app.models import image_text_alignment, review_detector, visual_logo_checker, returns_feedback
 
 app = FastAPI(title="Amazon Trust Score API")
 
 # Debugging Setup
 DEBUG_MODE = True
-LOG_DIR = "debug_logs"
+LOG_DIR = "/tmp/debug_logs"
 os.makedirs(LOG_DIR, exist_ok=True)
 
 def log_debug_data(source: str, data: Any):
@@ -67,6 +67,10 @@ async def debug_middleware(request: Request, call_next):
     
     response = await call_next(request)
     return response
+
+@app.get("/")
+async def root():
+    return {"status": "ok", "message": "Trust Score API is running"}
 
 @app.post("/trust_score")
 async def get_trust_score(data: ProductData) -> Dict[str, Any]:

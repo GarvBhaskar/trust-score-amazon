@@ -1,0 +1,36 @@
+{
+  "trust_score": 0.47,
+  "primary_findings": [
+    "Visual-Text Consistency: Strong match between images and description",
+    "Review Authenticity: Potential review manipulation detected. The most negative impact came from review 3 (classified as 'bot-like' with strong confidence): \"The material is very very thin and fabric doesn't feel like cotton. It's no way close to other brand...\". Full analysis: Review 1: Classified as 'genuine' (confidence: 0.56) - Authentic customer review with specific details; Review 2: Classified as 'genuine' (confidence: 0.49) - Authentic customer review with specific details; Review 3: Classified as 'bot-like' (confidence: 0.79) - Patterns consistent with automated generation; Review 4: Classified as 'bot-like' (confidence: 0.55) - Patterns consistent with automated generation; Review 5: Classified as 'bot-like' (confidence: 0.77) - Patterns consistent with automated generation",
+    "No clear brand identified in product title",
+    "Return Feedback Analysis: Frequent return issues reported. The most negative impact came from feedback 1: 'Item not as described' (this was a strongly negative factor). Full analysis: Feedback 1: Contains negative trigger words; Feedback 2: Classified as NEGATIVE (confidence: 1.00); Feedback 3: Contains negative trigger words"
+  ],
+  "details": {
+    "image_text_alignment": {
+      "score": 1.0,
+      "summary": "Visual-Text Consistency: Strong match between images and description",
+      "details": " Image 1: Found 1 matching keywords (polo) in caption 'a man wearing a white polo shirt with black trims...'"
+    },
+    "review_authenticity": {
+      "score": 0.4,
+      "summary": "Review Authenticity: Potential review manipulation detected. The most negative impact came from review 3 (classified as 'bot-like' with strong confidence): \"The material is very very thin and fabric doesn't feel like cotton. It's no way close to other brand...\". Full analysis: Review 1: Classified as 'genuine' (confidence: 0.56) - Authentic customer review with specific details; Review 2: Classified as 'genuine' (confidence: 0.49) - Authentic customer review with specific details; Review 3: Classified as 'bot-like' (confidence: 0.79) - Patterns consistent with automated generation; Review 4: Classified as 'bot-like' (confidence: 0.55) - Patterns consistent with automated generation; Review 5: Classified as 'bot-like' (confidence: 0.77) - Patterns consistent with automated generation",
+      "details": ""
+    },
+    "logo_verification": {
+      "score": 0.5,
+      "summary": "No clear brand identified in product title",
+      "details": ""
+    },
+    "returns_feedback": {
+      "score": 0.0,
+      "summary": "Return Feedback Analysis: Frequent return issues reported. The most negative impact came from feedback 1: 'Item not as described' (this was a strongly negative factor). Full analysis: Feedback 1: Contains negative trigger words; Feedback 2: Classified as NEGATIVE (confidence: 1.00); Feedback 3: Contains negative trigger words",
+      "details": ""
+    }
+  },
+  "technical_details": {
+    "images_analyzed": 1,
+    "reviews_analyzed": 5,
+    "return_feedbacks_analyzed": 3
+  }
+}

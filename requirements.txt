@@ -1,6 +1,8 @@
- fastapi
- uvicorn
- transformers
- torch
- pillow
- requests
+fastapi
+uvicorn
+transformers
+torch
+pillow
+requests
+hf_transfer
+sentencepiece

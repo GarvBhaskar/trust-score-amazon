@@ -3,7 +3,7 @@
 // Fetch Trust Score from backend
 async function fetchTrustScore(data) {
   try {
-    const response = await fetch("http://127.0.0.1:8000/trust_score", {
+    const response = await fetch("https://garvbtri-trust-score-api.hf.space/trust_score", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data),
@@ -82,7 +82,7 @@ function extractProductInfo() {
 function formatExplanation(rawText) {
   if (!rawText) return "";
 
-  const [summaryPart, detailPart = ""] = rawText.split("Full analysis:").map(part => part.trim());
+  const [summaryPart, detailPart = ""] = rawText.split(". Details:").map(part => part.trim());
   let formatted = `<p>${summaryPart}</p>`;
 
   if (detailPart) {
